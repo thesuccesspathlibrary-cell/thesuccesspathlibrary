@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <title>The Success Path Library</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <script>
+    (function() {
+      var target = "./Library.html" + (location.search || "") + (location.hash || "");
+      location.replace(target);
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=./Library.html">
+  </noscript>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #0f172a;
+      color: #f8fafc;
+      font-family: "Segoe UI", sans-serif;
+      text-align: center;
+      padding: 24px;
+    }
+
+    a {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Opening Library App...</h1>
+    <p>If redirect does not start, open <a href="./Library.html">Library.html</a>.</p>
+  </div>
+</body>
+</html>
